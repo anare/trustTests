@@ -1,0 +1,19 @@
+{
+    "name": "anare/test4",
+    "description": "Test4",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Anar Alishov",
+            "email": "alishov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Services\\": "Services/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^7.5"
+    }
+}
